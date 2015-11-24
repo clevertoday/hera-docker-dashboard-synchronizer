@@ -1,4 +1,5 @@
 FROM        ubuntu:14.04
+MAINTAINER  Brice Argenson <brice@clevertoday.com>
 
 RUN         apt-get update -y && \
             apt-get install -y npm && \
